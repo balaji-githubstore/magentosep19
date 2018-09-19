@@ -12,7 +12,7 @@ import magetnopages.HomePage;
 public class MagentoTest {
 	@Test
 	public  void main() {
-		WebDriver driver = new FirefoxDriver();
+		WebDriver driver = new ChromeDriver();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
